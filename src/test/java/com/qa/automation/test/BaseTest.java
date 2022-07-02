@@ -14,6 +14,9 @@ import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.Assert;
+
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.qa.automation.utility.getData_FromExcel;
 
 
@@ -24,6 +27,10 @@ public class BaseTest {
 	public WebDriver driver;
 	
 	public static Logger logg;
+	
+	public static ExtentReports report;
+	public static ExtentHtmlReporter httpreport;
+	
 
 	
 	/*Initialize driver and load the browser*/
