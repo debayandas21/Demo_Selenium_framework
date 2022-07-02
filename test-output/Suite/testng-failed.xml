@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="com.qa.automation.test.TC002_Demo1Test">
+        <methods>
+          <include name="ValidateHomePage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.qa.automation.test.TC002_Demo1Test -->
+      <class name="com.qa.automation.test.TC001_DemoTest">
+        <methods>
+          <include name="reportGeneration"/>
+          <include name="ValidateHomePage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.qa.automation.test.TC001_DemoTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
